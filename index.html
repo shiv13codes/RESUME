@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shiv Patidar | Resume</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="profile-image">
+      <img src="./IMAGES/Shiv.jpg" alt="Profile image">
+    </div>
+    <h1>Shiv Patidar</h1>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>Profile Summary</h2>
+      <p>Curious, creative, and committed — I’m a BBA student from IIM Bangalore who loves numbers, news, and new ideas. Whether I’m analyzing a stock chart, building content in Notion, or streamlining my workflow with ChatGPT, I thrive at the intersection of business and tech...</p>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li><strong>BBA DBE</strong>, IIM Bangalore (Ongoing)</li>
+        <li><strong>12th</strong>, Saket International School - 2023 - 89% - <em>Member of sports committee</em></li>
+        <li><strong>10th</strong>, Anjad Public School - 2021 - 76%</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="grid">
+        <img src="./IMAGES/Content Writing.jpg" alt="Content Writing">
+        <img src="./IMAGES/Power Point.jpg" alt="PowerPoint">
+        <img src="./IMAGES/Excel.jpg" alt="Excel">
+        <img src="./IMAGES/Canva.jpg" alt="Canva">
+        <img src="./IMAGES/Stock Analysis.jpg" alt="Stock Analysis">
+        <img src="./IMAGES/ChatGPT.jpg" alt="ChatGPT">
+      </div>
+    </section>
+
+    <section>
+      <h2>Soft Skills</h2>
+      <ul>
+        <li>Handling difficult people</li>
+        <li>Adaptability</li>
+        <li>Working under pressure</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Tools Proficiency</h2>
+      <div class="grid">
+        <img src="./IMAGES/Fyers.jpg" alt="Fyers">
+        <img src="./IMAGES/Excel.jpg" alt="Excel">
+        <img src="./IMAGES/Canva.jpg" alt="Canva">
+      </div>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>English</li>
+        <li>Hindi</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Professional Interests</h2>
+      <ul>
+        <li>Geopolitical awareness</li>
+        <li>Reading financial news</li>
+        <li>Trading & Investing</li>
+      </ul>
+    </section>
+
+    <section class="download">
+      <a href="resume.pdf" download>Download Resume PDF</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact me at: <a href="mailto:patidarshiv23@gmail.com">patidarshiv23@gmail.com</a></p>
+  </footer>
+
+  <button id="darkModeToggle">Toggle Dark Mode</button>
+
+  <script>
+    const toggle = document.getElementById('darkModeToggle');
+    toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
